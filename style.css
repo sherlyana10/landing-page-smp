@@ -39,3 +39,35 @@
       border-radius: 20px;
       box-shadow: 0 0 30px rgba(0,0,0,0.1);
     }
+
+    .gallery-img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .gallery-img:hover {
+    transform: scale(1.05);
+  }
+
+  .hover-shadow:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.ekskul-card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.ekskul-icon {
+  font-size: 3rem;
+  filter: drop-shadow(0 0 5px rgba(220, 53, 69, 0.4));
+}
+
